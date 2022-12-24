@@ -7,5 +7,22 @@ h1 {
 }
 .pics{
   width: 200px;
-  height: auto;
+  height: 200px;
+  border-image: fill;
+  border-radius: 5px;
+  border-color: black;
+}
+button{
+  background-color: burlywood;
+  
+}
+button h2{
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color:azure;
+}
+.michos{
+  display: grid;
+  grid-template-columns: 210px 210px 210px;
+  grid-auto-rows: 210px;
 }
