@@ -30,6 +30,10 @@ h1 {
   /* BUTTON LAYOUT START*/
 button{
   background-color: burlywood;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 3px;
 }
 .boton{
   margin: auto;
