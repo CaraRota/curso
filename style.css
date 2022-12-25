@@ -1,3 +1,6 @@
+/* MAIN PAGE START */
+
+  /* H1 CENTER LOGO/TEXT */
 h1 {
   background-color: navy;
   color: white;
@@ -5,26 +8,40 @@ h1 {
   width: auto;
   text-align: center;
 }
+  /* PICS CONTAINER */
 .pics{
   width: 200px;
   height: 200px;
   border-top-left-radius: 35px;
-  border-top-right-radius: 35px;
+  border-top-right-radius: 5px;
   border-bottom-right-radius: 35px;
   border-bottom-left-radius: 5px;
   border: 1px solid burlywood;
   object-fit: cover;
 }
-button{
-  background-color: burlywood; 
-}
-button h2{
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  color:azure;
-}
+  /* PICS DISPLAY/SETUP */
 .michos{
   display: grid;
   grid-template-columns: 220px 220px 220px;
   grid-auto-rows: 220px;
+  margin: auto;
+  width: 50%;
 }
+  /* BUTTON LAYOUT START*/
+button{
+  background-color: burlywood;
+}
+.boton{
+  margin: auto;
+  width: 50%;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.boton button h2{
+  color: azure;
+  text-align: center;
+}
+  /* BUTTON LAYOUT END*/
+
+/* MAIN PAGE END */
